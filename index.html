@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Anjuman Ara Islam — Portfolio</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <meta name="description" content="Portfolio of Anjuman Ara Islam — Web Developer & Designer" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <div class="brand">
+        <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero container" id="home">
+      <div class="hero-content">
+        <h1 class="hero-title">Anjuman Ara Islam</h1>
+        <h2 class="hero-subtitle">Portfolio</h2>
+        <p class="hero-dynamic">I am a <span id="typewriter" aria-live="polite"></span></p>
+
+        <div class="hero-ctas">
+          <a class="btn primary" href="#projects">See my work</a>
+          <a class="btn outline" id="download-cv" href="resume.pdf" download>Download CV</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <!-- Simple decorative graphic -->
+        <svg viewBox="0 0 600 400" class="hero-blob" preserveAspectRatio="xMidYMid meet">
+          <defs>
+            <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+              <stop offset="0" stop-color="#8ec5ff"/>
+              <stop offset="1" stop-color="#e0c3fc"/>
+            </linearGradient>
+          </defs>
+          <path fill="url(#g)" d="M421,321Q378,442,255,420Q132,398,96,292Q60,186,156,120Q252,54,368,100Q484,146,432,229Q380,312,421,321Z" opacity="0.95"></path>
+        </svg>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section id="about" class="container section about">
+      <div class="card">
+        <h3>About</h3>
+        <p>
+          Hi — I'm Anjuman Ara Islam. I build delightful, accessible and responsive web experiences.
+          I enjoy turning design ideas into polished interactive interfaces and solving problems with code.
+          Customize this paragraph to include a short professional summary for your CV.
+        </p>
+      </div>
+    </section>
+
+    <section id="projects" class="container section projects">
+      <h3>Selected Projects</h3>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-media" role="img" aria-label="Project 1 screenshot">
+            <svg viewBox="0 0 120 80"><rect width="120" height="80" fill="#f0f4ff"/></svg>
+          </div>
+          <div class="project-body">
+            <h4>Project One</h4>
+            <p>Short description of the project, your role, technologies used, and a measurable outcome.</p>
+            <div class="project-actions">
+              <a href="#" class="btn small">Live</a>
+              <a href="#" class="btn small outline">Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-media" role="img" aria-label="Project 2 screenshot">
+            <svg viewBox="0 0 120 80"><rect width="120" height="80" fill="#fff4f0"/></svg>
+          </div>
+          <div class="project-body">
+            <h4>Project Two</h4>
+            <p>Short description of the project, tools used, and what you learned.</p>
+            <div class="project-actions">
+              <a href="#" class="btn small">Live</a>
+              <a href="#" class="btn small outline">Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-media" role="img" aria-label="Project 3 screenshot">
+            <svg viewBox="0 0 120 80"><rect width="120" height="80" fill="#e9fff5"/></svg>
+          </div>
+          <div class="project-body">
+            <h4>Project Three</h4>
+            <p>A concise point about impact or complexity — great to show on your CV.</p>
+            <div class="project-actions">
+              <a href="#" class="btn small">Live</a>
+              <a href="#" class="btn small outline">Code</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="container section skills">
+      <h3>Skills</h3>
+      <div class="skills-grid">
+        <div class="skill">
+          <div class="skill-head">
+            <span>HTML & CSS</span>
+            <span class="skill-percent" data-value="95">0%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width:0%"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-head">
+            <span>JavaScript</span>
+            <span class="skill-percent" data-value="85">0%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width:0%"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-head">
+            <span>React / Frameworks</span>
+            <span class="skill-percent" data-value="80">0%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width:0%"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-head">
+            <span>Design & UX</span>
+            <span class="skill-percent" data-value="75">0%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width:0%"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="container section contact">
+      <h3>Contact</h3>
+      <div class="contact-grid">
+        <div class="card">
+          <h4>Get in touch</h4>
+          <p>I’m available for freelance work or full-time roles. You can email me or download my CV.</p>
+          <p><strong>Email:</strong> <a href="mailto:you@example.com">you@example.com</a></p>
+          <a class="btn primary" href="mailto:you@example.com?subject=Contact%20via%20Portfolio">Email me</a>
+        </div>
+
+        <form class="card contact-form" onsubmit="event.preventDefault(); sendMessage();">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" placeholder="Your name" required>
+          </label>
+
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" placeholder="you@example.com" required>
+          </label>
+
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="4" placeholder="A short message" required></textarea>
+          </label>
+
+          <div class="form-actions">
+            <button class="btn primary" type="submit">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Anjuman Ara Islam — Built with ❤️</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
